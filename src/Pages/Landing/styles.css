@@ -1,0 +1,35 @@
+.land-container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #F2991D;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    box-sizing: border-box;
+}
+
+.land-container .logo{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.land-container .logo .image{
+    width: 40rem;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 70%;
+    box-shadow: 0rem 2rem 10rem #fff;
+}
+
+
+@media(min-width: 750px){
+    .land-container .logo .image{
+        height: 45rem;
+        width: 40rem;
+    }   
+}
