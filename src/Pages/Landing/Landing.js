@@ -9,6 +9,7 @@ function Landing(){
            <div className="logo">
            <img src={Logo} alt="logo-igm" className="image"/>
            </div>
+           <button>Login</button>
         </div>
     );
 }

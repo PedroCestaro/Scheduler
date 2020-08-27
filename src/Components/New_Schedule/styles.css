@@ -1,0 +1,90 @@
+.container{
+    height: 95%;
+    width: 40rem;
+    background: #fff;
+    z-index: 100;
+    border-radius: 3rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0rem 1rem 10rem #b5b5b5;
+}
+
+.container .content{
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+;
+}
+.container .content h1{
+    font-size: 3rem;
+    align-self: center;
+    padding: 0.5rem;
+}
+
+.container .content form{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    box-sizing: border-box;
+}
+
+.container .content fieldset{
+    display: flex;
+    border: none;
+}
+
+.container .content fieldset+fieldset{
+    margin-top: 4rem;
+}
+
+
+.container .content label{
+    background: #000000;
+    padding: 1.5rem;
+    border-radius: 4rem;
+    width: 14rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.container .content input{
+    border-radius: 4rem;
+    margin-left: 1.9rem;
+    width: 30rem;
+}
+
+.container .content textarea{
+    border-radius: 4rem;
+    padding: 0.6rem;
+    overflow: hidden;
+    outline-style: unset;
+    width: 35rem;
+}
+
+.container .content button{
+    background: #F2991D;
+    padding: 1rem;
+    width: 10rem;
+    align-self: center;
+    margin: 1rem;
+    border-radius: 4rem;
+    color:#fff;
+    font-weight: bolder;
+    box-sizing: border-box;
+}
+
+.container .content button:hover{
+    width: 15rem;
+    box-shadow: 0rem 1rem 10rem #F2991D;
+    font-size: 2rem;
+}
