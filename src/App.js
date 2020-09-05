@@ -1,15 +1,14 @@
 import React from 'react';
 import "./assets/styles/global.css";
-import Landing from '../src/Pages/Landing/Landing';
-import MainPage from './Pages/MainPage/MainPage';
+import Routes from './routes';
 
 
 function App() {
   return (
     <div className="App">
-      <MainPage/>
+     <Routes/>
     </div>
-  );
+  ); 
 }
 
 export default App;

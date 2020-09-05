@@ -8,11 +8,11 @@ function NewItem(){
     const [date,setDate] = useState('');
     const [list,setList] = useState("");
 
-    
+
 
     return(
-        <div className="container">
-            <div className="content">
+            <div className="container">
+             <div className="content">
                 <h1>New Item</h1>
                 <form>
                 <fieldset>
@@ -50,7 +50,8 @@ function NewItem(){
                       <textarea/>
                     </fieldset>
                 </form>
-                <button>Save</button>
+                <button
+                >Save</button>
             </div>
         </div>
     );
